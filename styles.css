@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body * {
+    font-family: 'Inter', sans-serif;
+    line-height: 160%;
+}
+
+body {
+    background-image: url("assets/bg.jpg");
+    background-position: top center;
+    background-size: 100% auto; /* width, height */
+    background-repeat: no-repeat;
+    background-color: #121214;
+}
+
+header {
+    display: none;
+}
+
+main {
+    max-width: 580px;
+    max-height: 90%;
+    margin: auto;
+
+    display: grid;
+    gap: 24px; /* Compatível tbm com o grid, no caso ele joga o espaço para baixo */
+
+    margin-top: 32px;
+}
+
+ul {
+    margin-top: 24px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    
+    gap: 16px; /* Espaçamento entre os cards, só funciona com o display: flex */
+}
+
+.games-list img {
+    border-radius: 8px;
+    width: 120px;
+}
+
+.channels-list img {
+    border-radius: 50%;
+    width: 90px;
+}
+
+section {
+    color: #ffffff;
+    
+    /* cor rgb do topo dos cards*/
+    background: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    padding-top: 5px;
+    border-radius: 10px;
+}
+
+section div {
+    background-color: #2A2634;
+    border-radius: 8px;
+    padding: 24px 32px 32px;
+}
+
+section h2 {
+    font-weight: 900;
+    letter-spacing: -0.47px;
+}
+
+section p {
+    letter-spacing: -0.18px;
+    color: #A1A1AA;
+}
