@@ -35,6 +35,10 @@ Evento exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologia
 
 <h3 align="center">Video Demonstração</h3>
 
+
+https://user-images.githubusercontent.com/53373326/198881031-a5fd3215-0bb8-4e1e-aa9f-f45820314b7a.mp4
+
+
 </p>
 
 ## 🚀 Tecnologias
