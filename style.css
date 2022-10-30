@@ -5,12 +5,11 @@
 }
 
 body {
-    /* background-image: url("assets/bg-default.jpg");
+    background-image: url("assets/bg-default.jpg");
     background-position: top center;
     background-size: 100% auto; 
-    background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     
-    background-color: #656565;
     font-family: 'Inter', sans-serif;
     line-height: 160%;
     text-shadow: rgb(0, 0, 0) 3px 3px 3px;
