@@ -45,6 +45,7 @@ ul li a img {
     width: 400px;
     border-radius: 50px;
     display: flex; /*Alinha a div no centro da imagem*/
+    transition: transform .3s;
 }
 
 ul li a img:hover {
