@@ -18,27 +18,55 @@ body {
 }
 
 header {
-    display: none;
+    margin-top: 32px;
+    text-align: center;
+    height: calc(120px + 32px); /* Para não bugar a animação*/
+}
+
+header div {
+    width: 120px;
+    margin: auto; /*Alinhamento da imagem ao meio (alinhamento de divs)*/
+    background: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    border-radius: 50%;
+    display: flex; /*Alinha a div no centro da imagem*/
+    padding: 5px;
+
+    transition: transform .3s;
+}
+
+header div:hover {
+    transform: scale(1.1);
+}
+
+header img {
+    border-radius: 50%;
+    width: 100%; /* Ajusta a imagem no tamanho correto, usada em conjunto com a width da div (linha 26)*/
 }
 
 main {
     max-width: 580px;
     max-height: 90%;
-    margin: auto;
+    margin: 32px auto;
 
     display: grid;
     gap: 24px; /* Compatível tbm com o grid, no caso ele joga o espaço para baixo */
-
-    margin-top: 32px;
 }
 
-ul {
+section ul {
     margin-top: 24px;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
     
     gap: 16px; /* Espaçamento entre os cards, só funciona com o display: flex */
+}
+
+section li {
+    transition: transform 0.3s;
+}
+
+section li:hover {
+    transform: scale(1.1);
 }
 
 .games-list img {
@@ -49,6 +77,7 @@ ul {
 .channels-list img {
     border-radius: 50%;
     width: 90px;
+    border: #443E54 solid 1px;
 }
 
 section {
@@ -74,4 +103,53 @@ section h2 {
 section p {
     letter-spacing: -0.18px;
     color: #A1A1AA;
+}
+
+/* ANIMAÇÕES */
+
+/* Animação header */
+@keyframes fromTop {
+    from {
+        opacity: 0;
+        transform: translateY(-30px); /*Joga 30 pra cima*/
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0); /* Posição final */
+    }
+}
+
+/* Utilizando animação */
+header div {
+    animation: fromTop .8s backwards;
+}
+
+/* Animação dos cards */
+@keyframes fromBottom {
+    from {
+        opacity: 0;
+        transform: translateY(30px); /*Joga 30 pra baixo*/
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0); /* Posição final */
+    }
+}
+
+main section {
+ animation: fromBottom .7s backwards;
+}
+
+main section:nth-child(1) {
+    animation-delay: 0s;
+}
+
+main section:nth-child(2) {
+    animation-delay: .4s;
+}
+
+main section:nth-child(3) {
+    animation-delay: .8s;
 }
