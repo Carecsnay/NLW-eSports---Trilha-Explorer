@@ -20,7 +20,18 @@ Evento exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologia
 <br>
 
 <p align="center">
-  <img alt="eSports Trilha Explorer" src=".github/project.jpeg" width="100%">
+  <img alt="eSports Trilha Explorer Main" src=".github/project.png" width="100%"> Pagina inicial
+</p>
+
+<p align="center">
+  <img alt="eSports Trilha Explorer Version 01" src=".github/version-01.png" width="100%">
+   Versão 1 (original)
+</p>
+
+<p align="center">
+  <img alt="eSports Trilha Explorer Version 01" src=".github/version-02.png" width="100%">
+   Versão 2 (variação)
+</p>
 
 <h3 align="center">Video Demonstração</h3>
 
@@ -36,7 +47,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Simulação de uma plataforma web e móvel na qual os jogadores podem encontrar parceiros para os jogos mais populares.
+Simulação de uma plataforma web e móvel na qual os jogadores podem encontrar parceiros para os jogos mais populares. Como desafio extra, foi desenvolvido outras 2 páginas, uma para escolher qual versão entrar e a outra com um site alternativo com temática de filmes e séries.
 
 ## 🔖 Layout
 
