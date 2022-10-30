@@ -153,3 +153,25 @@ main section:nth-child(2) {
 main section:nth-child(3) {
     animation-delay: .8s;
 }
+
+@media (max-width: 900px) {
+    main {
+        margin: 30px auto;
+    }
+    
+    section {
+        margin: 0 40px;
+    }
+
+    section h2 {
+        font-weight: 100;
+    }
+    
+    section p {
+        font-size: 13px;
+    }
+
+    .games-list img, .channels-list img{
+        width: 95px;
+    }
+}
