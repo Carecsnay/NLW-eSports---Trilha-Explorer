@@ -21,6 +21,9 @@ Evento exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologia
 
 <p align="center">
   <img alt="eSports Trilha Explorer" src=".github/project.jpeg" width="100%">
+
+<h3 align="center">Video Demonstração</h3>
+
 </p>
 
 ## 🚀 Tecnologias
